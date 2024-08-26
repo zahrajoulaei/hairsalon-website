@@ -1,0 +1,293 @@
+body {
+  /* font-family: 'Arial', sans-serif; */
+  font-family: "Kanit", sans-serif !important;
+  background-color: #fbfbfc;
+  color: #333;
+}
+.navbar {
+  background: transparent;
+}
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:visited {
+  color: white;
+}
+.header {
+  height: 100vh;
+  background-image: url("./redHair.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.2s; */
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.footer {
+  background-color: #333;
+  color: white;
+}
+
+.footer a {
+  color: #f8f5f2 !important;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #c13a22 !important; /* Optional: Highlight color on hover */
+}
+
+.footer h5 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f8f5f2;
+}
+
+.asaf-bio {
+  background-color: #fbfbfc;
+}
+
+.asaf-bio img {
+  transition: transform 0.5s ease;
+  max-height: 500px; /* Optional: To limit the height of the image */
+  object-fit: cover; /* Ensure the image covers the full area without distortion */
+}
+
+.asaf-bio img:hover {
+  transform: scale(1.05);
+}
+
+.asaf-bio h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.asaf-bio p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.book-appointment {
+  /* color: #fff; */
+}
+
+.book-appointment h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.book-appointment .btn-primary {
+  background-color: #f8f5f2;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.book-appointment .btn-primary:hover {
+  background-color: #333;
+  color: #f8f5f2;
+  border: 1px solid #f8f5f2;
+}
+
+.discount-banner {
+  height: 100vh; /* Full height of the viewport */
+  background-image: url("./spa.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Gives a parallax effect */
+  color: #fff;
+}
+
+.discount-banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.discount-banner h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.discount-banner p {
+  font-size: 1.5rem;
+}
+
+.discount-banner .btn-light {
+  background-color: #f8f5f2;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.discount-banner .btn-light:hover {
+  background-color: #333;
+  color: #f8f5f2;
+  border: 1px solid #f8f5f2;
+}
+
+.reviews-section {
+  background-color: #fbfbfc;
+}
+
+.reviews-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.blockquote {
+  font-size: 1.5rem;
+  color: #555;
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #555;
+}
+
+.carousel-item {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-container {
+  position: relative;
+}
+.map-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 16px;
+}
+.map-footer .icon-location,
+.map-footer .icon-phone {
+  padding: 0 10px;
+}
+.map-footer-link a,
+.map-footer-link a:visited {
+  color: #fff;
+}
+
+.submit-review-section {
+  background-color: #fff;
+}
+
+.submit-review-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.form-label {
+  color: #333;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #555;
+}
+
+.working-hours {
+  background-color: #fbfbfc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.working-hours h4 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.working-hours ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.working-hours li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.products-section {
+  background-color: #f8f5f2;
+}
+
+.products-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  /* transition: transform 0.3s ease; */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.services img {
+  max-height: 400px;
+}
