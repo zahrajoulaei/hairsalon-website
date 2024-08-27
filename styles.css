@@ -291,3 +291,9 @@ body {
 .services img {
   max-height: 400px;
 }
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+      width: 100px; 
+  }
+}
